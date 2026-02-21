@@ -46,7 +46,7 @@ Works on standard text inputs, textareas, and most contentEditable elements.
 ```
 TwinWrite/
 ├── manifest.json      # Extension config (Manifest V3)
-├── background.js      # Service worker — shortcut & icon click handling
+├── background.js      # Service worker — icon click handling
 ├── content.js         # Core logic — text detection, API calls, UI injection
 ├── styles.css         # Injected styles for the floating button & menu
 ├── options.html       # Full-page settings & prompt editor
